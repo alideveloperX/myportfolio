@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>i'm.com</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="color3.css"
+      class="alternateColor"
+      title="color3"
+      disabled
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="color4.css"
+      class="alternateColor"
+      title="color4"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="color2.css"
+      class="alternateColor"
+      title="color2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="color1.css"
+      class="alternateColor"
+      title="color1"
+      disabled
+    />
+  </head>
+  <body class="d">
+    <!-- DropDown -->
+    <section class="dropdown">
+      <div class="col">
+        <button onclick="setActiveStyle('color1')" id="c1"></button>
+        <button onclick="setActiveStyle('color2')" id="c2"></button>
+        <button onclick="setActiveStyle('color3')" id="c3"></button>
+        <button onclick="setActiveStyle('color4')" id="c4"></button>
+      </div>
+      <div>
+        <button class="setting dll">
+          <i class="fa-solid fi fa-gear dl" id="dl"></i>
+        </button>
+        <button class="setting theme" id="theme ">
+          <i class="fa-solid fi fa-sun"></i>
+          <i class="fa-solid fi fa-moon"></i>
+        </button>
+      </div>
+    </section>
+    <!-- ....................... -->
+    <!-- Side Nav -->
+    <div class="side-nav">
+      <div class="logo">
+        <div class="box"></div>
+        <div class="box sidebox"></div>
+        <div class="logotext">Malik <span>Ali</span></div>
+      </div>
+      <div class="bar">
+        <ul>
+          <li>
+            <a href="#h" class="barbtn activesection"
+              ><i class="fa-solid fa-house"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="#a" class="barbtn"
+              ><i class="fa-solid fa-user"></i>About</a
+            >
+          </li>
+          <li>
+            <a href="#s" class="barbtn"
+              ><i class="fa-solid fa-list"></i>Services</a
+            >
+          </li>
+          <li>
+            <a href="#p" class="barbtn"
+              ><i class="fa-solid fa-toolbox"></i>Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="#c" class="barbtn"
+              ><i class="fa-solid fa-comments"></i>Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- ................................ -->
+      <!-- ==== Home Sectin Start ==== -->
+      <div class="section home" id="h">
+        <h1>MALIK ALI</h1>
+        <div class="typingtext">I'm a <span id="type"></span></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+          deleniti provident iure, dolorum perspiciatis, ex soluta quae amet ea
+          asperiores reprehenderit eligendi eius! Quod eum illo aut velit eos
+          excepturi.
+        </p>
+        <button class="buttn">More About me</button>
+        <div class="socialmedialinks">
+          <div class="link">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="link">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <div class="link">
+            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+          </div>
+          <div class="link">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="img">
+          <div class="imgbx"></div>
+          <div class="imgbx sidebox"></div>
+          <img src="./ali.png" />
+        </div>
+      </div>
+      <!-- ==== Home Sectin End ==== -->
+      <!-- ==== About Section Start ==== -->
+      <div class="section about" id="a">
+        <div class="section-title">
+          <h3>About</h3>
+          <div class="longbar"></div>
+          <div class="Shortbar"></div>
+          <div class="introtext">
+            My Name is Ali and <span>I'm a Web Developer</span>.
+          </div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+          perferendis? Ipsum doloremque veniam earum, fugiat fugit, soluta,
+          omnis culpa rerum est praesentium voluptates necessitatibus vitae amet
+          sapiente ut deserunt voluptate! Enim porro nulla minus error
+          asperiores te! Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Earum assumenda adipisci dicta, dolores as
+        </p>
+        <div class="mainbox">
+          <div class="inerbox" id="one">
+            <div class="infoboxes">
+              <div>
+                <div class="infobox">
+                  <h4>Phone:</h4>
+                  <span>+92 301 000</span>
+                </div>
+                <div class="infobox">
+                  <h4>Web:</h4>
+                  <span>www.domain.com</span>
+                </div>
+                <div class="infobox">
+                  <h4>Email:</h4>
+                  <span>ali12123@gmail.com</span>
+                </div>
+              </div>
+              <div>
+                <div class="infobox">
+                  <h4>DOB:</h4>
+                  <span>19 june 2045</span>
+                </div>
+                <div class="infobox">
+                  <h4>Frelancer:</h4>
+                  <span>Availabel</span>
+                </div>
+                <div class="infobox">
+                  <h4>Phone:</h4>
+                  <span>+92 301 000</span>
+                </div>
+              </div>
+            </div>
+            <div class="buttons">
+              <button class="buttn">Hire me</button>
+              <button class="buttn n">Download CV</button>
+            </div>
+          </div>
+          <div class="inerbox timelines" id="two">
+            <div class="timeline">
+              <h4><span>HTML5</span><span>90%</span></h4>
+              <div class="line"><div class="innerline"></div></div>
+            </div>
+            <div class="timeline">
+              <h4><span>CSS3</span><span>80%</span></h4>
+              <div class="line"><div class="innerline css"></div></div>
+            </div>
+            <div class="timeline">
+              <h4><span>JavaScript</span><span>87%</span></h4>
+              <div class="line"><div class="innerline js"></div></div>
+            </div>
+            <div class="timeline">
+              <h4><span>Bootstrap</span><span>95%</span></h4>
+              <div class="line"><div class="innerline bs"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section about about2">
+        <div class="edu longBox">
+          <div class="boxsideline"></div>
+          <div class="desc" id="d1">
+            <div class="row">
+              <div class="ball" id="bal1"></div>
+              <h4 class="tittel">2012-2015</h4>
+            </div>
+            <h3>Master in Computer Science</h3>
+
+            <div class="rowdesc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum veritatis vero, assumenda cupiditate officia blanditiis
+              tempore incid
+            </div>
+          </div>
+          <div class="desc" id="d2">
+            <div class="row">
+              <div class="ball bal2"></div>
+              <h4 class="tittel">2012-2015</h4>
+            </div>
+            <h3>Master in Computer Science</h3>
+
+            <div class="rowdesc">
+              Voluptatum veritatis vero, assumenda cupiditate officia blanditiis
+              tempore incid
+            </div>
+          </div>
+          <div class="desc" id="d3">
+            <div class="row">
+              <div class="ball bal3"></div>
+              <h4 class="tittel">2012-2015</h4>
+            </div>
+            <h3>Master in Computer Science</h3>
+
+            <div class="rowdesc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum veritatis vero, assumenda cupiditate officia blanditiis
+              tempore incid
+            </div>
+          </div>
+        </div>
+        <div class="skill longBox">
+          <div class="boxsideline"></div>
+          <div class="desc" id="d4">
+            <div class="row">
+              <div class="ball bal4"></div>
+              <h4 class="tittel">2012-2015</h4>
+            </div>
+            <h3>Master in Computer Science</h3>
+
+            <div class="rowdesc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum veritatis vero, assumenda cupiditate officia blanditiis
+              tempore incid
+            </div>
+          </div>
+          <div class="desc" id="d5">
+            <div class="row">
+              <div class="ball bal5"></div>
+              <h4 class="tittel">2012-2015</h4>
+            </div>
+            <h3>Master in Computer Science</h3>
+
+            <div class="rowdesc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum veritatis vero, assumenda cupiditate officia blanditiis
+              tempore incid
+            </div>
+          </div>
+          <div class="desc" id="d6">
+            <div class="row">
+              <div class="ball bal6"></div>
+              <h4 class="tittel">2012-2015</h4>
+            </div>
+            <h3>Master in Computer Science</h3>
+            <div class="rowdesc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum veritatis vero, assumenda cupiditate officia blanditiis
+              tempore incid
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ........................................ -->
+      <!-- services section Start -->
+      <div class="section services" id="s">
+        <div class="section-title">
+          <h3>Services</h3>
+          <div class="longbar"></div>
+          <div class="Shortbar"></div>
+        </div>
+        <div class="outerbox">
+          <div class="servicebox">
+            <div class="icn"></div>
+            <div>
+              <h4>Web Designing</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Ducimus facilis perferendis sapiente i
+              </p>
+            </div>
+          </div>
+          <div class="servicebox">
+            <div class="icn"></div>
+            <div>
+              <h4>Web Designing</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Ducimus facilis perferendis sapiente i
+              </p>
+            </div>
+          </div>
+          <div class="servicebox">
+            <div class="icn"></div>
+            <div>
+              <h4>Web Designing</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Ducimus facilis perferendis sapiente i
+              </p>
+            </div>
+          </div>
+          <div class="servicebox">
+            <div class="icn"></div>
+            <div>
+              <h4>Web Designing</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Ducimus facilis perferendis sapiente i
+              </p>
+            </div>
+          </div>
+          <div class="servicebox">
+            <div class="icn"></div>
+            <div>
+              <h4>Web Designing</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Ducimus facilis perferendis sapiente i
+              </p>
+            </div>
+          </div>
+          <div class="servicebox">
+            <div class="icn"></div>
+            <div>
+              <h4>Web Designing</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Ducimus facilis perferendis sapiente i
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ................................................ -->
+      <!-- Portfolio section starts -->
+      <div class="section portfolio" id="p">
+        <div class="section-title">
+          <h3>Portfolio</h3>
+          <div class="longbar"></div>
+          <div class="Shortbar"></div>
+        </div>
+        <div class="txt">My Last Projects :</div>
+        <div class="products">
+          <div class="product">
+            <img src="./portfolio/portfolio-1.jpg" alt="" />
+          </div>
+          <div class="product">
+            <img src="./portfolio/portfolio-2.jpg" alt="" />
+          </div>
+
+          <div class="product">
+            <img src="./portfolio/portfolio-3.jpg" alt="" />
+          </div>
+
+          <div class="product">
+            <img src="./portfolio/portfolio-4.jpg" alt="" />
+          </div>
+
+          <div class="product">
+            <img src="./portfolio/portfolio-5.jpg" alt="" />
+          </div>
+
+          <div class="product">
+            <img src="./portfolio/portfolio-1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- ................................................... -->
+      <!-- Contact Page  -->
+      <div class="section contact" id="c">
+        <div class="section-title">
+          <h3>Contact me</h3>
+          <div class="longbar"></div>
+          <div class="Shortbar"></div>
+        </div>
+        <div class="conatactboxes">
+          <div class="conatactbox conatactboxa">
+            <h5>If u have any question <span>send me Email</span>.</h5>
+            <input type="text" placeholder="Email" class="email" />
+            <input type="text" placeholder="Subject" class="Subject" />
+            <textarea placeholder="Enter your message."></textarea>
+            <button class="buttn sendbtn">Send</button>
+          </div>
+          <div class="conatactbox conatactboxb">
+            <div class="packet">
+              <div class="logopacket"></div>
+              <div class="textpacket">
+                <h4>Website</h4>
+                <p>www.domain.com</p>
+              </div>
+            </div>
+            <div class="packet">
+              <div class="logopacket"></div>
+              <div class="textpacket">
+                <h4>Phone</h4>
+                <p>+92 301 4244709</p>
+              </div>
+            </div>
+            <div class="packet">
+              <div class="logopacket"></div>
+              <div class="textpacket">
+                <h4>Website</h4>
+                <p>www.domain.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script1.js"></script>
+    <script src="./script.js"></script>
+    <script>
+      // Color Changing
+      let alternateColor = document.querySelectorAll(".alternateColor");
+      let setActiveStyle = (color) => {
+        alternateColor.forEach((styl) => {
+          if (color === styl.getAttribute("title")) {
+            styl.removeAttribute("disabled");
+          } else {
+            styl.setAttribute("disabled", "true");
+          }
+        });
+      };
+      //   ...................................
+      let barbtn = document.querySelectorAll(".barbtn");
+      barbtn.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          if (btn) {
+            btn.classList.toggle("activesection");
+            barbtn.classList.remove("activesection");
+          } else {
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
