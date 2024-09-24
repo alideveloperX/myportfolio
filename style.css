@@ -328,16 +328,16 @@ a {
 }
 
 #c1 {
-  background-color: #a04747;
+  background-color: #347928;
 }
 #c2 {
-  background-color: #03346e;
+  background-color: #A594F9;
 }
 #c3 {
-  background-color: #eedf7a;
+  background-color: #FCCD2A;
 }
 #c4 {
-  background-color: #48cfcb;
+  background-color: #D91656;
 }
 /* ................................................................. */
 /* about start */
@@ -821,7 +821,7 @@ a {
   }
   .buttons{
     position: absolute;
-    bottom: 40px;
+    bottom: 120px;
   }
   .about2{
     padding-left: 0;
@@ -829,7 +829,7 @@ a {
     justify-content: center;
     align-items: center;
     /* background-color: #03346e; */
-    height: max-content;
+    height: max-content !important;
   }
   .longBox{
     min-width: 300px;
@@ -857,4 +857,22 @@ a {
   .contact{
     padding-left: 0;
   }
+  .timelines{
+    margin-top: 100px;
+  }
+  .about{
+    height: 200vh;
+  }
+  .infobox h4{
+    min-width: 30%;
+    /* background-color: #a04747; */
+  }
+  .infobox span{
+    min-width: 50%;
+    /* background-color: #48cfcb !important; */
+  }
+  .infobox{
+    min-width: 300px;
+  }
+
 }
