@@ -282,7 +282,7 @@ hr {
   height: 100%;
   display: inline-flex;
   background-color: rgb(0, 0, 0);
-  border-right: 6px solid white;
+  border-right: 6px solid var(--color-normal);
   animation: widt 0.3s ease-in infinite;
   margin-left: 5px;
   /* width: 3px; */
@@ -732,13 +732,13 @@ a {
 }
 .home {
   /* background-color: #000000; */
-  padding-top: 40px;
+  padding-top: 100px;
 }
 .home .img {
-  top: 80px;
+  top: 120px;
 }
 .about {
-  padding-top: 10px;
+  padding-top: 80px;
 }
 .about .mainbox {
   margin-top: 0px;
@@ -748,6 +748,10 @@ a {
 }
 .portfolio {
   padding-top: 30px;
+}
+.about2 h1{
+  display: none;
+  
 }
 @media screen and (max-width: 470px) {
   body {
@@ -798,9 +802,6 @@ a {
 
     flex-wrap: wrap;
   }
-  .about {
-    height: 150vh;
-  }
   .infobox {
     display: flex;
     /* background-color: #03346e; */
@@ -820,8 +821,9 @@ a {
     padding: 0;
   }
   .buttons{
-    position: absolute;
-    bottom: 120px;
+    position: relative;
+    min-width: 300px;
+   margin-top: 40px;
   }
   .about2{
     padding-left: 0;
@@ -851,6 +853,12 @@ a {
   .conatactboxa{
     width: 100%;
   }
+  .conatactboxa input, .conatactboxa textarea{
+    width: 100%;
+  }
+  .conatactboxa button{
+    padding: 10px 40px;
+  }
   .conatactboxes{
     border: none;
   }
@@ -858,10 +866,11 @@ a {
     padding-left: 0;
   }
   .timelines{
-    margin-top: 100px;
+    margin-top:100px;
   }
   .about{
-    height: 200vh;
+    height: 170vh;
+    /* background-color: #347928; */
   }
   .infobox h4{
     min-width: 30%;
@@ -873,6 +882,20 @@ a {
   }
   .infobox{
     min-width: 300px;
+  }
+  .tittel{
+    margin-top: 20px;
+  }
+  .about2 h1{
+    display: block;
+    color: var(--color-normal);
+    /* position: absolute; */
+  }
+  .home .img {
+    top: 80px;
+  }
+  .about {
+    padding-top: 10px;
   }
 
 }
