@@ -883,13 +883,13 @@ a {
   .infobox{
     min-width: 300px;
   }
-  .tittel{
-    margin-top: 20px;
-  }
   .about2 h1{
     display: block;
     color: var(--color-normal);
     /* position: absolute; */
+  }
+  .longBox{
+    gap: 20px;
   }
   .home .img {
     top: 80px;
